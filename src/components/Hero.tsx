@@ -13,13 +13,13 @@ export function Hero() {
           Breaking traditional boundaries to create secure, innovative solutions in blockchain and web development. Specializing in DeFi, React, and Next.js.
         </p>
         <div className="flex gap-4">
-          <Button variant="outline" size="icon">
+          <Button as="a" href="https://github.com/Terriffictony10" target="_blank" variant="outline" size="icon" rel="noopener noreferrer">
             <Github className="w-5 h-5" />
           </Button>
-          <Button variant="outline" size="icon">
+          <Button as="a" href="https://www.linkedin.com/in/anthony-yonan-11b6592ab" target="_blank" variant="outline" size="icon" rel="noopener noreferrer">
             <Linkedin className="w-5 h-5" />
           </Button>
-          <Button variant="outline" size="icon">
+          <Button as="a" href="mailto:superzman15@gmail.com" variant="outline" size="icon">
             <Mail className="w-5 h-5" />
           </Button>
         </div>
