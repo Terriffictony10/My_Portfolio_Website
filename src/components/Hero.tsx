@@ -3,6 +3,10 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Hero() {
+  const handleNavigation = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <header className="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between">
       <div className="md:w-1/2 text-left">
@@ -13,13 +17,25 @@ export function Hero() {
           Breaking traditional boundaries to create secure, innovative solutions in blockchain and web development. Specializing in DeFi, React, and Next.js.
         </p>
         <div className="flex gap-4">
-          <Button as="a" href="https://github.com/Terriffictony10" target="_blank" variant="outline" size="icon" rel="noopener noreferrer">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => handleNavigation('https://github.com/Terriffictony10')}
+          >
             <Github className="w-5 h-5" />
           </Button>
-          <Button as="a" href="https://www.linkedin.com/in/anthony-yonan-11b6592ab" target="_blank" variant="outline" size="icon" rel="noopener noreferrer">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => handleNavigation('https://www.linkedin.com/in/anthony-yonan-11b6592ab')}
+          >
             <Linkedin className="w-5 h-5" />
           </Button>
-          <Button as="a" href="mailto:superzman15@gmail.com" variant="outline" size="icon">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => handleNavigation('mailto:superzman15@gmail.com')}
+          >
             <Mail className="w-5 h-5" />
           </Button>
         </div>
