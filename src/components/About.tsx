@@ -10,8 +10,7 @@ export function About() {
         <Card className="bg-gray-800/50 border-gray-700">
           <CardContent className="pt-6">
             <p className="text-gray-300 leading-relaxed">
-              At 22, I chose to break away from traditional education to immerse myself in the rapidly evolving world of blockchain and web development. Since June 2024, I've been working as a freelance developer, focusing on creating innovative solutions that bridge the gap between traditional web applications and blockchain technology.
-            </p>
+I started my journey at the University of Arizona in 2022 as a Computer Science student. I wasnt feeling super structured of motivated though so I took some time to explore the world, ended up getting into building DApps on Ethereum, and ultimately Decided to come back to school pursuing an Associates of Applied Science from the Pima Community College. Im hoping the knowledge I attain along with certifications with CompTia as well as RedHat will set me up for success wherever I end up            </p>
           </CardContent>
         </Card>
         <div className="space-y-4">
@@ -19,14 +18,14 @@ export function About() {
             <Code2 className="w-6 h-6 text-blue-400 mt-1" />
             <div>
               <h3 className="font-semibold mb-2">Technical Expertise</h3>
-              <p className="text-gray-300">React, Next.js, Redux, RESTful APIs, Smart Contracts, EVM Chains</p>
+              <p className="text-gray-300">React, Next.js, Redux, APIs, Smart Contracts, AWS Systems (Amazon VPC, Amazon EC2), AWS IAM</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <Shield className="w-6 h-6 text-blue-400 mt-1" />
             <div>
               <h3 className="font-semibold mb-2">Security Focus</h3>
-              <p className="text-gray-300">Specialized in developing secure financial management systems and DeFi solutions</p>
+              <p className="text-gray-300">Specialized in practical systems problem-solving across AWS, standalone Linux servers, Windows Server environments, and blockchain-enabled solutions when appropriate.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">

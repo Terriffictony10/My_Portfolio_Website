@@ -11,10 +11,10 @@ export function Hero() {
     <header className="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between">
       <div className="md:w-1/2 text-left">
         <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-          Blockchain Developer & Web3 Innovator
+          AWS/Windows Server 2019/Linux Systems Engineer
         </h1>
         <p className="text-xl text-gray-300 mb-8">
-          Breaking traditional boundaries to create secure, innovative solutions in blockchain and web development. Specializing in DeFi, React, and Next.js.
+        A Practical developer that wants to give everything I have as far as systems engineering and maintenance from the Project Management Body of Knowledge as well as my experience actually getting my fingers in the mud and working in javascript on a backend for a personal Project. 
         </p>
         <div className="flex gap-4">
           <Button
